@@ -19,6 +19,22 @@ cd ~/.neovimplus
 
 > NOTE: 字体个人使用: [MesloNerdFont](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Meslo/M)，可以兼顾p10k和插件里的一些图标显示。
 
+字体安装:
+
+```shell
+cd $HOME
+wget https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/install.sh
+chmod +x ./install.sh
+./install.sh 'Meslo LG'
+rm install.sh
+```
+
+macOS:
+
+```shell
+brew tap homebrew/cask-fonts && brew install font-meslo-lg-nerd-font
+```
+
 ## 自定义配置
 
 - `~/.neovimplus/init.vim`：默认配置
