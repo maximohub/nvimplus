@@ -25,7 +25,7 @@ cd ~/.neovimplus
 cd $HOME
 wget https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/install.sh
 chmod +x ./install.sh
-./install.sh 'Meslo LG'
+./install.sh Meslo
 rm install.sh
 ```
 
