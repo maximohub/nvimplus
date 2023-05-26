@@ -256,7 +256,7 @@ Buffer栏美化。
 
 ### dap
 
-neovim debug插件。
+neovim debug 插件。
 
 | 快捷键              | 说明                                      |
 | -------             | -----                                     |

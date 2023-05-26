@@ -1,11 +1,6 @@
-" OriginAuthor: chxuan <787280310@qq.com>
-" OriginRepository: https://github.com/chxuan/vimplus
-" Create Date: 2016-04-10
-" License: MIT
-"
-" Author: wyg1997 <wyg19970408@gmail.com>
-" Repository: https://github.com/wyg1997/neovimplus
-" Create Date: 2020-12-23
+" Author: Maxomo <jonny0624@gmail.com>
+" Repository: https://github.com/maximohub/nvimplus.git
+" Create Date: 2021-12-23
 " License: MIT
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -174,8 +169,8 @@ runtime macros/matchit.vim
 " 打开当前光标所在单词的vim帮助文档
 nnoremap <leader>H :execute ":help " . expand("<cword>")<cr>
 
-" 查看neovimplus的help文件
-nnoremap <leader>h :view +let\ &l:modifiable=0 ~/.neovimplus/help.md<cr>
+" 查看 nvimplus 的 help 文件
+nnoremap <leader>h :view +let\ &l:modifiable=0 ~/.nvimplus/help.md<cr>
 
 " 分屏窗口移动
 nnoremap <c-j> <c-w>j

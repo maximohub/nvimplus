@@ -1,4 +1,4 @@
-# NeovimPlus
+# NvimPlus
 
 Simple and beautiful editor for neovim programmer.
 
@@ -12,8 +12,8 @@ Simple and beautiful editor for neovim programmer.
 ## 安装
 
 ```shell
-git clone https://github.com/wyg1997/neovimplus.git ~/.neovimplus
-cd ~/.neovimplus
+git clone https://github.com/maximohub/nvimplus.git ~/.nvimplus
+cd ~/.nvimplus
 ./install.sh
 ```
 
@@ -37,9 +37,9 @@ brew tap homebrew/cask-fonts && brew install font-meslo-lg-nerd-font
 
 ## 自定义配置
 
-- `~/.neovimplus/init.vim`：默认配置
-- `~/.neovimplus/init.vim.custom.config`：用户自定义配置，可以覆盖默认配置
-- `~/.neovimplus/init.vim.custom.plugins`：用户插件
+- `~/.nvimplus/init.vim`：默认配置
+- `~/.nvimplus/init.vim.custom.config`：用户自定义配置，可以覆盖默认配置
+- `~/.nvimplus/init.vim.custom.plugins`：用户插件
 
 ## 帮助
 

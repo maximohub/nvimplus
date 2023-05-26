@@ -258,7 +258,7 @@ function get_now_timestamp()
 
 function not_implement()
 {
-    echo "Not implement, please draft an issue in https://github.com/wyg1997/neovimplus/issues"
+    echo "Not implement, please draft an issue in https://github.com/maximohub/nvimplus/issues"
 }
 
 # main函数
